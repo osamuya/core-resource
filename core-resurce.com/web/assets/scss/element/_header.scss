@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+header {
+    background: #990000;
+    height: 28px;
+    .cTopnav {
+        padding: 3px;
+        padding-top: 5px;
+        ul {
+            li {
+                float: left;
+                list-style: none;
+                margin-right: 20px;
+                padding-left: 20px;
+                a:link, a:visited, a:active {
+                    color: #fff;
+                }
+                a:hover {
+                    color: #c1c1c1;
+                }
+            }
+            li:first-child {
+                margin-left: 20px;
+            }
+            .cTopnav_home {
+                background: url("../img/gt-home.png");
+                background-repeat: no-repeat;
+                background-position: 2px 2px;
+            }
+            .cTopnav_bookmark {
+                background: url("../img/gt-bookmark.png");
+                background-repeat: no-repeat;
+                background-position: 2px 2px;
+            }
+        }
+    }
+}
